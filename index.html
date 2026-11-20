@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name - Homepage</title>
-  <meta name="description" content="A minimal academic homepage template for researchers, students, and creators.">
-  <meta name="keywords" content="academic homepage, personal website, portfolio, researcher, student">
+  <title>Mowen Ruan</title>
+  <meta name="description" content="Mowen Ruan is an undergraduate at Shanghai Jiao Tong University researching language model architectures and scaling laws for pretraining.">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="assets/css/font_sans_serif.css">
@@ -36,26 +34,15 @@
   <div class="wrapper">
     <header class="sidebar">
       <div class="profile-card">
-        <a class="image avatar">
-          <img src="assets/img/avatar.svg" alt="Profile avatar">
-        </a>
-
-        <h1 class="site-name">Your Name</h1>
-        <p class="site-email">your.email@example.com</p>
-
-        <div class="social-icons">
-          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/yourname" title="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://yourblog.example.com" title="Blog"><i class="fa-solid fa-rss"></i></a>
+        <div class="image avatar">
+          <img src="https://avatars.githubusercontent.com/u/199607493?v=4" alt="" width="220" height="220">
         </div>
 
-        <div class="visitor-card">
-          <div class="visitor-card-title">Visitor Map</div>
-          <div class="visitor-card-body">
-            Replace this card with your own ClustrMaps image or analytics widget.
-          </div>
+        <h1 class="site-name">Mowen Ruan</h1>
+        <p class="site-email"><a href="mailto:ruanmowen@sjtu.edu.cn">ruanmowen@sjtu.edu.cn</a></p>
+
+        <div class="social-icons">
+          <a href="https://github.com/mowenruan" title="GitHub" aria-label="Mowen Ruan on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
         </div>
       </div>
     </header>
@@ -64,9 +51,27 @@
       <div class="section" id="about">
         <h2 class="section-title">About Me</h2>
         <div class="section-body">
-          <p>Hello! I am <strong>Your Name</strong>, a student / researcher / engineer working on topics that matter to you. This template is designed to make personal academic websites clean, readable, and easy to adapt.</p>
-          <p>You can use this section to briefly introduce your background, research interests, and current affiliations. Keep it concise and personal.</p>
-          <p><strong><a href="#" target="_blank" rel="noopener">Download my CV</a></strong> (replace this link with your resume)</p>
+          <p>I am an undergraduate majoring in Artificial Intelligence at the <a href="https://sai.sjtu.edu.cn/">School of Artificial Intelligence, Shanghai Jiao Tong University</a>. My research focuses on large language model pretraining, especially model architecture and scaling laws.</p>
+          <ul>
+            <li><strong>Scaling laws.</strong> I use experiments with smaller models to predict larger models’ performance and identify promising hyperparameter settings.</li>
+            <li><strong>Concept-level language modeling.</strong> I study architectures that group tokens into semantic concepts and predict future concepts to improve token-level modeling and capture long-range dependencies.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section" id="news">
+        <h2 class="section-title">News</h2>
+        <div class="section-body">
+          <ul class="news-list" role="list">
+            <li>
+              <span class="news-date">[<time datetime="2026-11">Nov 2026</time>]</span>
+              Excited to share our paper <a href="https://arxiv.org/abs/2611.17332v2">ArchSpace</a>, now on arXiv!
+            </li>
+            <li>
+              <span class="news-date">[<time datetime="2026-11">Nov 2026</time>]</span>
+              I’ve started a pretraining internship with Ant Group’s Ling Team.
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -75,11 +80,10 @@
         <div class="section-body">
           <div class="card">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Your University</strong></p>
-                <p class="exp-detail">B.S. / M.S. / Ph.D. in Your Major</p>
-                <p class="exp-period">2022 - 2026</p>
+                <p class="exp-title"><strong>Shanghai Jiao Tong University</strong></p>
+                <p class="exp-detail">Bachelor’s degree in Artificial Intelligence</p>
+                <p class="exp-period">Sep 2024 – Present</p>
               </div>
             </div>
           </div>
@@ -89,37 +93,50 @@
       <div class="section" id="experience">
         <h2 class="section-title">Experience</h2>
         <div class="section-body">
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Research Lab / Company Name</strong></p>
-                <p class="exp-detail">Research Intern / Engineer / Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2025 - Present</p>
+          <div class="experience-group">
+            <h3>Internship</h3>
+            <div class="card timeline-item">
+              <div class="experience-item">
+                <div class="experience-content">
+                  <p class="exp-title"><strong>Ant Group, Ling Team</strong></p>
+                  <p class="exp-detail">Intern in the pretraining group</p>
+                  <p class="exp-period">Nov 2026 – Present</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card timeline-item">
+              <div class="experience-item">
+                <div class="experience-content">
+                  <p class="exp-title"><strong>Shanghai AI Lab, LLM Center</strong></p>
+                  <p class="exp-detail">Core contributor in the pretraining group</p>
+                  <p class="exp-period">Jul 2026 – Nov 2026</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Previous Institution</strong></p>
-                <p class="exp-detail">Research Intern / Teaching Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2024 - 2025</p>
+          <div class="experience-group">
+            <h3>Research</h3>
+            <div class="card timeline-item">
+              <div class="experience-item">
+                <div class="experience-content">
+                  <p class="exp-title"><strong>LUMIA Lab, Shanghai Jiao Tong University</strong></p>
+                  <p class="exp-detail">Research intern, advised by <a href="https://hantek.github.io/">Prof. Zhouhan Lin</a></p>
+                  <p class="exp-period">Mar 2026 – Present</p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="section" id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="section-body">
-          <div class="card project-card">
-            <a href="https://github.com/yourname/project-name">Project Name</a>: A short one-line summary describing what this project does and why it matters.
+            <div class="card timeline-item">
+              <div class="experience-item">
+                <div class="experience-content">
+                  <p class="exp-title"><strong>RethinkLab, Shanghai Jiao Tong University</strong></p>
+                  <p class="exp-detail">Research intern, advised by <a href="https://thinklab.sjtu.edu.cn/">Prof. Junchi Yan</a></p>
+                  <p class="exp-period">Dec 2024 – Mar 2026</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -132,11 +149,23 @@
               <li>
                 <div class="pub-row">
                   <div class="pub-content">
-                    <div class="title">Paper Title Goes Here</div>
-                    <div class="author"><strong>Your Name</strong>, Coauthor A, Coauthor B</div>
-                    <div class="periodical"><em><strong>Conference / Journal / arXiv</strong></em></div>
+                    <div class="title">ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research</div>
+                    <div class="author">Jie Wang, Tong Zhu, Jiahao Kuang, Zhe Xu, <strong>Mowen Ruan</strong>, Yunkai Chai, Yuliang Liu, Dehong Zheng, Rubin Wei, Yu Cheng, Bowen Zhou, Tao Ji, Zhouhan Lin, Qi Zhang</div>
+                    <div class="periodical"><em>arXiv preprint, 2026</em></div>
                     <div class="links">
-                      <a href="#">Paper</a> / <a href="#">Code</a> / <a href="#">Project</a>
+                      <a href="https://arxiv.org/abs/2611.17332v2">arXiv v2</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="pub-row">
+                  <div class="pub-content">
+                    <div class="title">NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction</div>
+                    <div class="author">The Intern-NCP Team</div>
+                    <div class="periodical"><em>arXiv preprint, 2026</em></div>
+                    <div class="links">
+                      <a href="https://arxiv.org/abs/2609.10715">arXiv</a> / <a href="https://huggingface.co/papers/2609.10715">Hugging Face</a>
                     </div>
                   </div>
                 </div>
@@ -152,11 +181,19 @@
           <div class="awards-grid">
             <div class="award-item">
               <span class="award-icon">🏅</span>
-              <div class="award-text"><strong>Award Name</strong></div>
+              <div class="award-text"><strong>Challenge Cup National Championship</strong> (2025)</div>
             </div>
             <div class="award-item">
-              <span class="award-icon">🥇</span>
-              <div class="award-text"><strong>Competition / Scholarship / Honor</strong></div>
+              <span class="award-icon">🏅</span>
+              <div class="award-text"><strong>National Scholarship</strong> (2025, 2026)</div>
+            </div>
+            <div class="award-item">
+              <span class="award-icon">🏅</span>
+              <div class="award-text"><strong>Zhiyuan Honor Scholarship</strong> (2024, 2025)</div>
+            </div>
+            <div class="award-item">
+              <span class="award-icon">🏅</span>
+              <div class="award-text"><strong>Honorable Mention</strong>, Mathematical Contest in Modeling (MCM 2025)</div>
             </div>
           </div>
         </div>
@@ -165,7 +202,7 @@
 
     <footer class="site-footer">
       <p>
-        &copy; 2026 Your Name. All rights reserved.
+        &copy; 2026 Mowen Ruan. All rights reserved.
         <br>
         <span class="template-credit"><a href="https://github.com/wzsyyh/luka-homepage-template">Luka Homepage Template</a> by <a href="https://wzsyyh.github.io/">Yuheng Yang</a></span>
       </p>
